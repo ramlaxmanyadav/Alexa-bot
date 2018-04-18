@@ -8852,23 +8852,23 @@ section {
 
 
  */
-/* line 18, /Users/ivan/Workspace/code/00_personal/devs/chiquibot/app/assets/stylesheets/application.css.scss */
+/* line 18, /Users/ivan/Workspace/code/00_personal/devs/chiquibot/app/assets/stylesheets/application.scss */
 body {
   padding-top: 50px;
 }
 
-/* line 22, /Users/ivan/Workspace/code/00_personal/devs/chiquibot/app/assets/stylesheets/application.css.scss */
+/* line 22, /Users/ivan/Workspace/code/00_personal/devs/chiquibot/app/assets/stylesheets/application.scss */
 .starter-template {
   padding: 40px 15px;
   text-align: center;
 }
 
-/* line 27, /Users/ivan/Workspace/code/00_personal/devs/chiquibot/app/assets/stylesheets/application.css.scss */
+/* line 27, /Users/ivan/Workspace/code/00_personal/devs/chiquibot/app/assets/stylesheets/application.scss */
 .home-row {
   margin-bottom: 24px;
 }
 
-/* line 31, /Users/ivan/Workspace/code/00_personal/devs/chiquibot/app/assets/stylesheets/application.css.scss */
+/* line 31, /Users/ivan/Workspace/code/00_personal/devs/chiquibot/app/assets/stylesheets/application.scss */
 .bs-callout {
   padding: 20px;
   margin: 20px 0;
@@ -8884,23 +8884,23 @@ body {
   text-align: left;
 }
 
-/* line 46, /Users/ivan/Workspace/code/00_personal/devs/chiquibot/app/assets/stylesheets/application.css.scss */
+/* line 46, /Users/ivan/Workspace/code/00_personal/devs/chiquibot/app/assets/stylesheets/application.scss */
 .bs-callout-info {
   border-left-color: #1b809e;
 }
 
-/* line 50, /Users/ivan/Workspace/code/00_personal/devs/chiquibot/app/assets/stylesheets/application.css.scss */
+/* line 50, /Users/ivan/Workspace/code/00_personal/devs/chiquibot/app/assets/stylesheets/application.scss */
 .bs-callout-info h4 {
   color: #1b809e;
 }
 
-/* line 54, /Users/ivan/Workspace/code/00_personal/devs/chiquibot/app/assets/stylesheets/application.css.scss */
+/* line 54, /Users/ivan/Workspace/code/00_personal/devs/chiquibot/app/assets/stylesheets/application.scss */
 .bs-callout h4 {
   margin-top: 0;
   margin-bottom: 5px;
 }
 
-/* line 59, /Users/ivan/Workspace/code/00_personal/devs/chiquibot/app/assets/stylesheets/application.css.scss */
+/* line 59, /Users/ivan/Workspace/code/00_personal/devs/chiquibot/app/assets/stylesheets/application.scss */
 .alert-info {
   text-align: left;
 }

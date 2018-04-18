@@ -20,16 +20,22 @@ $(document).ready(function(){
 
   $('#al-ataquerl').on('click', function(event) {
     $.ajax({
-      url: '/ask_chiquito',
+      url: '/ask_alexa',
       type: 'json',
       method: 'get',
       data: { query: $('#query').val() },
       success: function(data) {
-        $('.chiquibot-response').removeClass('hide');
-        $('#chiquito-response').html(data['response']);
+          $('#user-response').html($('#query').val());
+        $('.alexa-response').removeClass('hide');
+        $('#alexa-response').html(data['response']);
         $('#query').val('');
       }
     });
   });
 
+    $(document).keyup(function(event) {
+        if (event.keyCode === 13) {
+            $("##al-ataquerl").click();
+        }
+    });
 });

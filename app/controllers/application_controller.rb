@@ -3,8 +3,8 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
 
-  def ask_chiquito
+  def ask_alexa
     reaction = CHIQUIBOT.get_reaction(params[:query])
-    render json: { response: reaction.present? ? reaction : '¿Comorl?' }
+    render json: { response: reaction.present? ? reaction : 'I am not able to understand!' }
   end
 end
