@@ -10,9 +10,9 @@
     </category>
 
     <category>
-      <pattern>*</pattern>
+      <pattern>* ^</pattern>
       <template>
-        Welcome <star/>
+        Welcome From Alexa How May I help you?
       </template>
     </category>
 
