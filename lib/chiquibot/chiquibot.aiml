@@ -26,6 +26,17 @@
       </template>
     </category>
 
+        <category>
+          <pattern>Who is *</pattern>
+          <template>
+            <random>
+              <li><star/> is a champ!</li>
+              <li>I don't know who is <star/></li>
+            </random>
+          </template>
+        </category>
+
+
 <category>
    <pattern> A * is a *. </pattern>
 
