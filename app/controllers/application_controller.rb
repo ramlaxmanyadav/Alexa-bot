@@ -4,7 +4,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def ask_alexa
-    reaction = CHIQUIBOT.get_reaction(params[:query])
+    reaction = AlexaBot.get_reaction(params[:query])
     render json: { response: reaction.present? ? reaction : 'I am not able to understand!' }
   end
 end

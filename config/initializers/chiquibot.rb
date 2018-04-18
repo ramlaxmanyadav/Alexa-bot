@@ -2,5 +2,5 @@ require 'programr'
 
 brains = Dir.glob("lib/chiquibot/*")
 
-CHIQUIBOT = ProgramR::Facade.new
-CHIQUIBOT.learn(brains)
+AlexaBot = ProgramR::Facade.new
+AlexaBot.learn(brains)
