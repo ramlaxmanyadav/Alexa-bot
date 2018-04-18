@@ -38,7 +38,7 @@
 
 
 <category>
-   <pattern> A * is a *. </pattern>
+   <pattern> * is a *. </pattern>
 
    <template>
       When a <star index = "1"/> is not a <star index = "2"/>?
