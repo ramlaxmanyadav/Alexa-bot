@@ -10,7 +10,7 @@
     </category>
 
     <category>
-      <pattern>* name *</pattern>
+      <pattern>* name is *</pattern>
       <template>
         Welcome <star index="2"/> How May I help you?
       </template>
