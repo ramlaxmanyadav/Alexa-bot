@@ -45,5 +45,43 @@
    </template>
 
 </category>
+ <category>
+      <pattern>I am *</pattern>
+      <template>
+         Hello <set name = "username"> <star/>! </set>
+      </template>  
+   </category>  
+   
+   <category>
+      <pattern>Good Night</pattern>
+      <template>
+         Hi <get name = "username"/> Thanks for the conversation!
+      </template>  
+   </category>  
+   
+   <category>
+   <pattern>BYE *</pattern>
+   
+   <template>
+      <srai>BYE</srai>
+   </template>
+   
+</category>
+  <category>
+      <pattern>WHAT ABOUT MOVIES</pattern>
+      <template>Do you like comedy movies</template>  
+   </category>
+   
+   <category>
+      <pattern>YES</pattern>
+      <that>Do you like comedy movies</that>
+      <template>Nice, I like comedy movies too.</template>
+   </category>
+   
+   <category>
+      <pattern>NO</pattern>
+      <that>Do you like comedy movies</that>
+      <template>Ok! But I like comedy movies.</template>
+   </category> 
 
   </aiml>
