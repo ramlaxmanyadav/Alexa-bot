@@ -68,8 +68,8 @@
    
 </category>
   <category>
-      <pattern>WHAT ABOUT MOVIES</pattern>
-      <template>Do you like comedy movies</template>  
+      <pattern>WHAT ABOUT *</pattern>
+      <template>Do you like comedy movies?</template>  
    </category>
    
    <category>
